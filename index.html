@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17120f">
+  <meta name="description" content="Gali Radio — a little corner of old-school Indian street nostalgia, radio warmth, and music from YouTube.">
+  <title>Gali Radio — Purani Gali, Nayi Yaadein</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="topline"><span>EST. EVERY EVENING</span><span class="live-dot"></span><span>YOUR NEIGHBOURHOOD RADIO</span><span class="top-right">VOL. 01 / INDIA</span></div>
+
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Gali Radio home">
+      <span class="brand-mark">GR<span>♪</span></span>
+      <span class="brand-copy"><strong>GALI RADIO</strong><small>पुरानी गली, नई यादें</small></span>
+    </a>
+    <nav><a href="#radio">THE RADIO</a><a href="#vibe">THE VIBE</a><a href="#about">ABOUT</a></nav>
+    <a class="header-pill" href="#radio">TUNE IN <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> A SMALL ESCAPE FROM THE SCROLL</p>
+        <h1>Some places<br>sound like <em>home.</em></h1>
+        <p class="hero-intro">A little radio for chai breaks, slow evenings, and the songs that take you back. Pull up a chair. The shop is open.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#radio">ENTER THE RADIO <span>↓</span></a>
+          <span class="micro-note">NO ACCOUNT. JUST VIBES.</span>
+        </div>
+        <div class="hero-stamp"><span>दिल से</span><strong>LOCAL<br>FREQUENCY</strong><small>Made for the memories</small></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a vintage radio in a warm Indian neighbourhood">
+        <div class="sun-disc"></div>
+        <div class="arch arch-back"></div><div class="arch arch-front"></div>
+        <div class="wall-poster poster-one"><small>आज का मूड</small><strong>बस<br>सुनते रहो</strong></div>
+        <div class="wall-poster poster-two">CHAI<br><span>&</span><br>OLD SONGS</div>
+        <div class="plant"><i></i><i></i><i></i><b></b></div>
+        <div class="radio">
+          <div class="radio-top"><span>GALI RADIO</span><span class="radio-light"></span></div>
+          <div class="radio-face">
+            <div class="radio-speaker"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            <div class="radio-display"><small>FM / MEMORIES</small><strong>♥ 90.4</strong><div class="equalizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+          </div>
+          <div class="radio-bottom"><span>VOLUME</span><b></b><b></b><b></b><b></b><span>TUNING</span><b class="big-knob"></b></div>
+        </div>
+        <div class="art-caption"><span>FIG. 001</span><span>THE EVENING FREQUENCY</span></div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Site motto"><div>CHAI GETTING COLD <span>✳</span> ONE MORE SONG <span>✳</span> NO RUSH TODAY <span>✳</span> YAADON KA RADIO <span>✳</span> CHAI GETTING COLD <span>✳</span> ONE MORE SONG <span>✳</span></div></div>
+
+    <section class="radio-section" id="radio">
+      <div class="section-heading"><div><p class="eyebrow">01 / ON AIR</p><h2>Your corner.<br><em>Your soundtrack.</em></h2></div><p class="section-note">Bring your own YouTube link, or use a playlist you have permission to share. Playback starts only when you press play.</p></div>
+      <div class="player-card">
+        <div class="player-top"><div class="on-air"><span class="live-dot"></span> NOW TUNING</div><span class="mono">G.R. / 001</span></div>
+        <div class="player-main">
+          <div class="record-art"><div class="record"><div class="record-label">GALI<br><small>RADIO</small><span>✳</span></div></div><div class="record-shadow"></div></div>
+          <div class="player-info">
+            <p class="eyebrow">THE COMMUNITY DECK</p><h3>Bring the song<br>that brings you back.</h3>
+            <p class="player-desc">Paste a YouTube video or playlist URL below. This player uses YouTube's official embed; it does not download or extract audio.</p>
+            <form id="youtube-form" class="url-form">
+              <label for="youtube-url">YOUTUBE VIDEO / PLAYLIST URL</label>
+              <div class="input-row"><input id="youtube-url" type="url" placeholder="https://www.youtube.com/watch?v=..." autocomplete="url" required><button type="submit" class="button button-primary">LOAD ↗</button></div>
+              <p class="form-help" id="form-message" role="status">Tip: use music you own, have licensed, or are authorized to embed.</p>
+            </form>
+          </div>
+        </div>
+        <div class="embed-wrap" id="embed-wrap">
+          <div class="embed-placeholder"><div class="play-icon">▶</div><strong>Your song goes here</strong><span>Paste a YouTube URL above to tune in.</span></div>
+        </div>
+        <div class="player-bottom"><span><i class="live-dot"></i> INDEPENDENT INTERNET RADIO</span><span>LISTEN RESPONSIBLY · RESPECT THE ARTISTS</span></div>
+      </div>
+      <p class="legal-note">Gali Radio is an independent concept project and is not affiliated with YouTube or any record label. YouTube content is played through the official embedded player and remains subject to the uploader's settings, YouTube terms, and applicable rights.</p>
+    </section>
+
+    <section class="vibe-section" id="vibe">
+      <div class="vibe-title"><p class="eyebrow">02 / THE LITTLE THINGS</p><h2>Nothing fancy.<br><em>Everything familiar.</em></h2></div>
+      <div class="vibe-grid">
+        <article class="vibe-card chai-card"><div class="card-number">01</div><div class="chai-cup"><span></span></div><p class="card-kicker">THE CHAI BREAK</p><h3>One cup.<br>No hurry.</h3><p>For the five-minute break that somehow fixes the whole day.</p></article>
+        <article class="vibe-card quote-card"><div class="card-number">02</div><div class="quote-mark">“</div><p class="card-kicker">TODAY'S GALI GYAAN</p><h3 id="quote-text">Zindagi ko shuffle pe rakho.</h3><button id="new-quote" class="text-button" type="button">ANOTHER THOUGHT ↻</button></article>
+        <article class="vibe-card memory-card"><div class="card-number">03</div><div class="memory-sun"></div><p class="card-kicker">THE MEMORY LANE</p><h3>Old tunes.<br>New evenings.</h3><p>Bring your own soundtrack and let the memory do the rest.</p></article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about"><div class="about-badge">LOCAL<br>LOVE<br>ONLY ♥</div><div><p class="eyebrow">03 / WHY WE'RE HERE</p><h2>The internet could<br>use a <em>little adda.</em></h2><p class="about-copy">Gali Radio is an original, independent concept built around the warmth of neighbourhood corners: music in the background, chai on the side, and nowhere urgent to be. No accounts, no complicated setup — just a small place to pause.</p></div></section>
+  </main>
+
+  <footer><a class="footer-brand" href="#">GALI RADIO <span>♪</span></a><p>Made with warmth, not noise.</p><div class="footer-links"><a href="#about">ABOUT</a><a href="#radio">TUNE IN</a><a href="mailto:hello@example.com">CONTACT</a></div><small>© <span id="year"></span> Gali Radio · Independent concept website</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
